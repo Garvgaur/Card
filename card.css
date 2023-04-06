@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: cyan;
+}
+
+#mainbox{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 15px 15px;
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/02/37/background-for-visit-card-vector-30237.jpg);
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+ #done{
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px;
+    border: 1px solid black;
+ }
+
+ #done button{
+    margin-top: 20px;
+    height: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 160px;
+ }
+
+ #done p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#done span{
+    font-size: 35px;
+    color: green;
+}
+
+
+#close{
+    
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px;
+    margin-top: 200px;
+    border: 1px solid black;
+}
+
+#close button{
+    margin-top: 20px;
+    height: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 160px;
+}
+
+#close p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#close span{
+    font-size: 35px;
+    color: red;
+}
+
+#priority_high{
+    
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 20px;
+    margin-top: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#priority_high button{
+    margin-top: 20px;
+    height: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 160px;
+}
+
+#priority_high p{
+    margin-top: 20px;
+    font-size: 15px ;
+}
+
+#priority_high span{
+    font-size: 35px;
+    color: rgba(233, 208, 66, 0.842);
+}
