@@ -1,124 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
 *{
+
     padding: 0;
     margin: 0;
-
-}
-
-body{
-    background-color: cyan;
 }
 
 #mainbox{
-    background: white;
+    background: #FC2947;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    width: 100vh;
+    height: 600px;
+    width: 800px;
     margin: auto;
+    margin-top: 100px;
+    position: relative;
     border-radius: 20px;
-    margin-top: 50px;
-    padding: 15px 15px;
-    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/02/37/background-for-visit-card-vector-30237.jpg);
 }
 
-.icon{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ h1{
+    text-align: center;
+    position: absolute;
+    margin-bottom: 450px;
+    font-size: 45px;
+ }
+ 
+ #div1{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
     border: 3px solid black;
-}
- #done{
-    background-color:white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 20px 20px;
-    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
  }
 
- #done button{
-    margin-top: 20px;
-    height: 35px;
-    background: black;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 160px;
+ #div1 img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
  }
 
- #done p{
+ #div1 h2{
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+#div1 p{
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
-#done span{
-    font-size: 35px;
-    color: green;
+#div1 button{
+    /* position: absolute; */
+    height: 40px;
+    width: 170px;
+    font-size: 17px;
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
 }
 
+#div2{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
 
-#close{
+}
+
+#div2 img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+#div2 h2{
+    
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+#div2 p{
+    
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#div2 button{
+    height: 40px;
+    width: 170px;
+    font-size: 17px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#div3{
     
     background-color: white;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
     padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 20px 20px;
-    margin-top: 200px;
-    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
-#close button{
-    margin-top: 20px;
-    height: 35px;
-    background: black;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 160px;
-}
-
-#close p{
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-#close span{
-    font-size: 35px;
-    color: red;
-}
-
-#priority_high{
+#div3 img{
     
-    background-color: white;
-    padding: 20px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#div3 h2{
+    
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+#div3 p{
+    
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#div3 button{
+    
+    height: 40px;
+    width: 170px;
+    font-size: 17px;
+    margin-top: 25px;
     text-align: center;
-    margin: 20px 20px;
-    margin-top: 300px;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-#priority_high button{
-    margin-top: 20px;
-    height: 35px;
-    background: black;
-    color: white;
-    border-radius: 10px;
     cursor: pointer;
-    width: 160px;
-}
-
-#priority_high p{
-    margin-top: 20px;
-    font-size: 15px ;
-}
-
-#priority_high span{
-    font-size: 35px;
-    color: rgba(233, 208, 66, 0.842);
 }
